@@ -1,20 +1,22 @@
-var str="",x,y,a;
-for (a=1;a<=100;a++)
-{
-    x = a%3 ==0;
-    y = a%5 ==0;
-    if(x)
-    {
-        str+="fizz"
-    }
-    if (y)
-    {
-        str+="buzz"
-    }
-    if (!(x||y))
-    {
-        str+=a;
-    }
-    str+="\n"
+function fizzBuzz(num){
+    //for(let num=start; num <= end; num++){
+        if(num % 5 === 0 && num % 3 === 0){
+          return "FizzBuzz"
+        }   
+        else if(num % 3 === 0){
+          console.log("Fizz")
+          return "Fizz"
+        }
+        else if(num % 5 === 0){
+          console.log("Buzz")
+          return "Buzz"
+        }
+        else {
+          console.log(num)
+          return num
+        }
+    //}
 }
-console.log(str);
+fizzBuzz(2)
+
+module.exports = fizzBuzz;

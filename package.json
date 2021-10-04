@@ -1,0 +1,23 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binarysearch.test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.2.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisarga-chaudhari/MERN-training-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisarga-chaudhari/MERN-training-tasks/issues"
+  },
+  "homepage": "https://github.com/nisarga-chaudhari/MERN-training-tasks#readme"
+}

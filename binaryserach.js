@@ -19,5 +19,7 @@ function binary_Search(items, value){
  return (items[middleIndex] != value) ? -1 : middleIndex;
 }
 var items = [1, 2, 3, 4, 5, 7, 8, 9];
-console.log(binary_Search(items, 1));   
+console.log(binary_Search([1,3,5], 7));   
 console.log(binary_Search(items, 5));
+
+module.exports = binary_Search;
