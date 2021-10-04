@@ -19,3 +19,13 @@ test('should return buzz if the the number passed in is divisible by 5', ()=>{
     expect(fb(25)).toEqual('Buzz');
     expect(fb(20)).toEqual('Buzz')
 })
+
+test('should return 7 for the number 7', () => {
+    expect(fb(7)).toEqual(7);
+});
+
+test('should return "Fizz" for the number 3', () => {
+    expect(fb(3)).toEqual('Fizz');
+    expect(fb(6)).toEqual('Fizz');
+    expect(fb(21)).toEqual('Fizz');
+  });
